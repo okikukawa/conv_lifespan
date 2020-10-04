@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <title>動物年齢変換ツール</title>
+  </head>
+  <body>
+    <div class="container">
+      <br><br>
+      <h2>あなたの年齢は動物だと何歳？</h2>
+      <p class="textForm">あなたの年齢が <input type="number" id="human_age"><label> 歳のとき...</label></p>
+      <!-- <input  value="変換" id="btn"/><br><br> -->
+      <div class="animalAge">
+        <p>　　　イヌ🐶は・・・<label id="dog_indicate" class="ageBold"></label><label>歳</label></p>
+        <p>　　　ネコ🐱は・・・<label id="cat_indicate" class="ageBold"></label><label>歳</label></p>
+        <p>ハムスター🐹は・・・<label id="hamster_indicate" class="ageBold"></label><label>歳</label></p>
+        <p>　　　サル🐵は・・・<label id="monkey_indicate" class="ageBold"></label><label>歳</label></p>
+        <p>　　　カメ🐢は・・・<label id="turtle_indicate" class="ageBold"></label><label>歳</label></p>
+        <p>　　クジラ🐳は・・・<label id="whale_indicate" class="ageBold"></label><label>歳</label></p>
+        <p>　　　ゾウ🐘は・・・<label id="elephant_indicate" class="ageBold"></label><label>歳</label></p><br>
+      </div>
+      <h2 id="accordion_btn">番外編</h2>
+      <div class="accordion_list">
+        <p id="accordion_target1">ウニ☀︎は・・・<label id="uni_indicate" class="ageBold"></label><label>歳（平均寿命200歳！）</label></p>
+        <p id="accordion_target2">鬼舞辻無惨🤠は・・・<label id="kibutsuji_indicate" class="ageBold"></label><label>歳（推定1000歳！！）</label></p>
+        <p id="accordion_target3">ロブスター🦞は・・・<label class="ageBold"> ∞ </label>歳！！！<br>（脱皮するときに殻と一緒に臓器も入れ替わるので理論上無限に生きられるらしい）</label></p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

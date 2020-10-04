@@ -1,0 +1,57 @@
+html{
+  min-height: 100%;
+}
+
+body{
+  background-color: #dedede;
+  background-image:
+  linear-gradient(#ecebeb 50%, transparent 50%, transparent);
+  background-size: 10px 10px;
+  min-height: 100%;
+}
+
+.container {
+  width: 500px;
+  padding:0px 30px 30px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:#F2F2F2;
+  height: 100%;
+}
+
+.container h2{
+  color: #364e96;/*文字色*/
+  border: solid 3px #364e96;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
+}
+
+.ageBold{
+  color: #CC0000;
+}
+
+.animalAge , .textForm{
+  font-weight: bold;
+  color: #364e96;/*文字色*/
+  border: solid 3px #364e96;/*線*/
+  border-radius: 0.5rem;/*角の丸み*/
+}
+
+.animalAge , .textForm{
+  padding: 0.5em 7.25em;
+  margin: 2em 0;
+}
+
+.accordion_list{
+  padding: 0.5em 3em;
+  margin: 2em 0;
+  font-weight: bold;
+  color: #364e96;/*文字色*/
+  border: solid 3px #364e96;/*線*/
+  border-radius: 0.5rem;/*角の丸み*/
+}
+
+#human_age{
+  width:40px;
+
+}
